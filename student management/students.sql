@@ -134,9 +134,9 @@ CREATE TABLE `trig` (
 --
 
 INSERT INTO `trig` (`tid`, `rollno`, `action`, `timestamp`) VALUES
-(7, '1ve17cs012', 'STUDENT INSERTED', '2021-01-10 19:19:56'),
-(8, '1ve17cs012', 'STUDENT UPDATED', '2021-01-10 19:20:31'),
-(9, '1ve17cs012', 'STUDENT DELETED', '2021-01-10 19:21:23');
+(7, 'Suhani', 'STUDENT INSERTED', '2025-10-10 19:19:56'),
+(8, 'shree', 'STUDENT UPDATED', '2025-10-10 19:20:31'),
+(9, 'jeeva', 'STUDENT DELETED', '2025-11-10 19:21:23');
 
 -- --------------------------------------------------------
 
@@ -156,7 +156,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `email`, `password`) VALUES
-(4, 'anees', 'anees@gmail.com', 'pbkdf2:sha256:150000$1CSLss89$ef995dfc48121768b2070bfbe7a568871cd56fac85ac7c95a1e645c8806146e9');
+(4, 'Suhani', 'Suhani123@gmail.com', 'pbkdf2:sha256:150000$1CSLss89$ef995dfc48121768b2070bfbe7a568871cd56fac85ac7c95a1e645c8806146e9');
 
 --
 -- Indexes for dumped tables
